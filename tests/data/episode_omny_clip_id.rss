@@ -1,0 +1,9 @@
+<rss xmlns:it="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <item>
+      <title>Omny ClipId Test</title>
+      <guid>a</guid>
+      <omny:clipId>test-omny-clip-id</omny:clipId>
+    </item>
+  </channel>
+</rss>

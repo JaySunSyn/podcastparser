@@ -1,0 +1,17 @@
+{
+    "title": "episode_omny_clip_id",
+    "episodes": [
+      {
+        "guid": "file://tests/data/a",
+        "title": "Omny ClipId Test",
+        "enclosures": [],
+        "payment_url": null,
+        "total_time": 1200,
+        "link": "file://tests/data/a",
+        "published": 0,
+        "description": "",
+        "omny_clip_id": "test-omny-clip-id"
+      }
+    ]
+  }
+  
