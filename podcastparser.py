@@ -702,6 +702,7 @@ MAPPING = {
     'rss/channel/atom:link': PodcastAtomLink(),
     'rss/channel/generator': PodcastAttr('generator', squash_whitespace),
     'rss/channel/language': PodcastAttr('language', squash_whitespace),
+    'rss/channel/!omny:programId': PodcastAttr('omny_program_id', squash_whitespace),
 
     'rss/channel/itunes:category': ItunesCategoryAttr('itunes_categories'),
     'rss/channel/itunes:category/itunes:category': ItunesSubCategoryAttr('itunes_categories'),
@@ -734,6 +735,7 @@ MAPPING = {
     'rss/channel/item/itunes:season': EpisodeAttrSeason('season', squash_whitespace),
     'rss/channel/item/itunes:episode': EpisodeAttrNumber('number', squash_whitespace),
     'rss/channel/item/itunes:episodeType': EpisodeAttrType('type', squash_whitespace),
+    'rss/channel/item/!omny:clipId': EpisodeAttr('omny_clip_id'),
 
     'rss/channel/item/itunes:image': EpisodeAttrFromHref('episode_art_url'),
     'rss/channel/item/media:thumbnail': EpisodeAttrFromUrl('episode_art_url'),
